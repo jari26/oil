@@ -21,7 +21,7 @@ const typing = async () => {
   }
   
   // 잠시 대기
-  await wait(300);
+  await wait(800);
   
   // 지우는 효과
   remove();
@@ -42,7 +42,7 @@ const remove = async () => {
   i = !letters[i+1] ? 0 : i + 1;
 	typing();
 	i==2;
-	setTimeout(function(){ window.location.replace('main.html')}, 2800);
+	setTimeout(function(){ window.location.replace('main.html')}, 3500);
 
 }
 
