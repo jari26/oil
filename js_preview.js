@@ -1,12 +1,12 @@
 // JavaScript Document
-
+window.onload = function(){
 const $text = document.querySelector(".typing .text");
 
 // 글자 모음
 const letters = [
   "COLLECTIVE",
   "CREATORS", 
-  "TROUBLE MAKERS"
+  "TROUBLEMAKERS"
 ];
 
 // 글자 입력 속도
@@ -56,3 +56,4 @@ var myFunc = function() {
     });
 
 setTimeout(myFunc, 1500);
+}
